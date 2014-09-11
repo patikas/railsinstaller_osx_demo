@@ -1,4 +1,10 @@
 MyApp::Application.routes.draw do
+  resources :comments
+
+
+  resources :posts
+
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
